@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="//at.alicdn.com/t/font_521106_hmyugi7ak9e8kt9.js"></script>
     <link rel="stylesheet" href="./styles/style.css">
     <title>Resume</title>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,12 +59,14 @@
     </div>
     <main>
         <div class="userCard">
-            <div class="pictureAndText">
+            <div class="pictureAndText clearfix">
                 <div class="picture">
-                    <img src="#" alt="avatar">
+                    <img src="./img/avatar.jpg" alt="avatar">
                 </div>
                 <div class="text">
-                    <span class="hello"></span>
+                    <span class="hello">Hello
+                        <span class="triangle"></span>
+                    </span>
                     <h1>Dong Zuo</h1>
                     <p>Fontend Developer</p>
                     <hr>
@@ -69,15 +81,39 @@
                         <dd>384474574@qq.com</dd>
                         <dt>Tel</dt>
                         <dd>15352511905</dd>
+                        <dt>
+                            <span class="vacation">vacation</span>
+                        </dt>
+                        <dd>1/2/2017 - 3/1/2017</dd>
                     </dl>
                 </div>
             </div>
             <footer class="media">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-blog"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jianshu"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </a>
             </footer>
         </div>
         <a href="#" class="button">Download PDF</a>

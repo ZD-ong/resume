@@ -85,3 +85,103 @@ ol {
     margin-right: auto;
     background-color: #ffffff;
 }
+.userCard .hello {
+    background-color: #E4696C;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.userCard .hello .triangle {
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #E2686B;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+}
+.userCard .picture {
+    float: left;
+}
+.userCard .text {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.userCard .text hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid #dedede;
+    margin: 20px 0;
+}
+.userCard .pictureAndText {
+    padding: 50px;
+}
+.userCard dl dt,
+.userCard dl dd {
+    float: left;
+    padding: 5px 0;
+}
+.userCard dl dt {
+    width: 40%;
+    font-weight: bold;
+}
+.userCard dl dd {
+    width: 60%;
+    color: #9da0a7;
+}
+.userCard .vacation {
+    background-color: #E4696C;
+    color: white;
+    display: inline-block;
+    padding: 2px;
+    line-height: 14px;
+    position: relative;
+    border-radius: 4px;
+}
+/* .userCard footer.media {
+    background: #E4696C;
+    text-align: center;
+}
+.userCard > footer.media > a {
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+} 
+.userCard > footer.media > a:hover {
+    background: #CF5D5F;
+}
+.userCard svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    vertical-align: top;
+} */
+.userCard > footer.media {
+    background: #e6686a;
+    text-align: center;
+  }
+  .userCard > footer.media > a {
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+  }
+  .userCard > footer.media > a:hover {
+    background: #cf5d5f;
+  }
+  .userCard svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    vertical-align: top;
+  }
