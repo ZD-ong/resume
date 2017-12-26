@@ -116,36 +116,91 @@
                 </a>
             </footer>
         </div>
-        <a href="#" class="button">Download PDF</a>
-        <p>Dong Zuo, Localization Tester, Microsoft Skype_intl Team, Pactera.</p>
-        <br> Skill: JavaScript, Node.js, React.
+        <p class="downloadResume-wrapper">
+            <a class="downloadResume" href="./resume.pdf" target="_blank" download>Download PDF</a>
+        </p>
+        <p class="selfIntroduction">
+            Dong Zuo, Localization Tester, Microsoft Skype_intl Team, Pactera.
+            <br> Skill: JavaScript, Node.js, React.
+        </p>
     </main>
-    <section>
+    <section class="skills">
         <h2>Skills</h2>
-        <ol>
-            <li>HTML 5 & CSS 3</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>Vue</li>
-            <li>React</li>
-            <li>HTTP</li>
+        <ol class="clearfix">
+            <li>
+                <h3>HTML 5 & CSS 3</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
+
+            <li>
+                <h3>Javascript</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
+            <li>
+                <h3>Vue</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
+            <li>
+                <h3>HTTP</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
+            <li>
+                <h3>Node.js</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
+            <li>
+                <h3>React</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%;"></div>
+                </div>
+            </li>
         </ol>
     </section>
-    <section>
-        <h2>Projects</h2>
+    <section class="portfolio">
+        <h2>Portfolio</h2>
         <nav>
-            <ol>
-                <li>All</li>
-                <li>Frame</li>
-                <li>JS & CSS</li>
+            <ol class="clearfix">
+                <li id="portfolio1">All</li>
+                <li id="portfolio2">Framework</li>
+                <li id="portfolio3">VanillaJS</li>
             </ol>
+            <div id="portfolioBar" class="bar state-1">
+                <div class="bar-inner"></div>
+            </div>
         </nav>
-        <div class="jobs">
-            <div class="big"></div>
-            <div class="small"></div>
-            <div class="small"></div>
+        <div class="works" style="height: 597px;">
+            <div class="big" style="top: 0; left: 0;">
+                <img src="./img/1.jpg" alt="作品1">
+            </div>
+            <div class="small" style="top: 0; left: 645px;">
+                <img src="./img/2.jpg" alt="作品2">
+            </div>
+            <div class="small" style="top: 312px; left: 645px;">
+                <img src="./img/3.jpg" alt="作品3">
+            </div>
         </div>
     </section>
+    <script>
+        portfolio1.onclick = function () {
+            portfolioBar.className = 'bar state-1'
+        }
+        portfolio2.onclick = function () {
+            portfolioBar.className = 'bar state-2'
+        }
+        portfolio3.onclick = function () {
+            portfolioBar.className = 'bar state-3'
+        }
+    </script>
 </body>
 
 </html>
